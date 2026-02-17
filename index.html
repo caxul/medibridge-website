@@ -1,51 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>MediBridge International</title>
 
 <style>
-body{
-margin:0;
-font-family:Arial;
-background:#f4f9ff;
-}
+body{margin:0;font-family:Arial;background:#f4f9ff}
+nav{background:#0077cc;padding:10px;text-align:center}
+nav a{color:white;margin:10px;text-decoration:none;font-weight:bold}
+header{background:#0077cc;color:white;padding:30px;text-align:center}
+section{padding:20px}
+h2{color:#0077cc}
+.card{background:white;padding:15px;margin:10px 0;border-radius:8px}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:15px;border-radius:50%;font-size:22px;text-decoration:none}
+</style>
 
-nav{
-background:#0077cc;
-color:white;
-padding:10px;
-text-align:center;
-}
+</head>
 
-nav a{
-color:white;
-margin:0 10px;
-text-decoration:none;
-font-weight:bold;
-}
+<body>
 
-header{
-background:#0077cc;
-color:white;
-padding:30px;
-text-align:center;
-}
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
 
-section{padding:20px;}
+<header>
+<h1>MediBridge International</h1>
+<p>Your Trusted Medical Tourism Partner in India</p>
+</header>
 
-h2{color:#0077cc;}
+<section>
+<h2>Welcome | Добро пожаловать</h2>
+<p>
+We connect international patients with India's best hospitals and doctors.
+<br><br>
+Мы помогаем иностранным пациентам получить лечение в лучших клиниках Индии.
+</p>
+</section>
 
-.card{
-background:white;
-padding:15px;
-margin:10px 0;
-border-radius:8px;
-box-shadow:0 0 5px rgba(0,0,0,.1);
-}
+<section id="about">
+<h2>About Us</h2>
+<div class="card">
+Medical tourism assistance, doctors, hospitals, visas & full support.
+</div>
+</section>
 
-input,textarea{
-width:100%;
-padding:10px;
-margin:
+<section id="services">
+<h2>Services</h2>
+<div class="card">Doctor Consultation</div>
+<div class="card">Hospital Booking</div>
+<div class="card">Visa Help</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>WhatsApp: +91 9654164067</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/919654164067">💬</a>
+
+</body>
+</html>
